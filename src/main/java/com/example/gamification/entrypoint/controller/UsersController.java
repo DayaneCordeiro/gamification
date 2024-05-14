@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
-@RequestMapping("api/v1/users")
+@RequestMapping("api/v1/user")
 public interface UsersController {
 
     @PostMapping
