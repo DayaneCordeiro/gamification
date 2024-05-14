@@ -3,10 +3,18 @@ package com.example.gamification.entrypoint.controller.imp;
 import com.example.gamification.entrypoint.controller.TasksController;
 import com.example.gamification.entrypoint.dto.TaskInputDto;
 import com.example.gamification.entrypoint.dto.TaskOutputDto;
+import com.example.gamification.entrypoint.facade.TaskFacade;
+import lombok.RequiredArgsConstructor;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
+@RestController
+@RequiredArgsConstructor
 public class TasksControllerImp implements TasksController {
+
+    private final TaskFacade facade;
+
     @Override
     public void create(TaskInputDto inputDto) {
 
