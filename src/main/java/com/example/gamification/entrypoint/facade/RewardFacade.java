@@ -1,5 +1,6 @@
 package com.example.gamification.entrypoint.facade;
 
+import com.example.gamification.core.usecase.CreateRewardUseCase;
 import com.example.gamification.entrypoint.dto.RewardInputDto;
 import com.example.gamification.entrypoint.mapper.RewardMapper;
 import lombok.RequiredArgsConstructor;
