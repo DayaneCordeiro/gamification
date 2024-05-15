@@ -1,9 +1,11 @@
 package com.example.gamification.core.domain;
 
 import com.example.gamification.core.enumeration.TaskStatus;
+import lombok.Builder;
 
 import java.time.LocalDate;
 
+@Builder
 public record TaskDomain(
 
     String id,
