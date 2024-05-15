@@ -2,6 +2,7 @@ package com.example.gamification.dataprovider.gateway;
 
 import com.example.gamification.core.domain.RewardDomain;
 import com.example.gamification.core.gateway.RewardGateway;
+import com.example.gamification.dataprovider.database.entity.RewardEntity;
 import com.example.gamification.dataprovider.database.mapper.EntityMapper;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
