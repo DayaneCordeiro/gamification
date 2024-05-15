@@ -1,5 +1,6 @@
 package com.example.gamification.entrypoint.mapper;
 
+import com.example.gamification.core.domain.RewardDomain;
 import com.example.gamification.entrypoint.dto.RewardInputDto;
 import org.mapstruct.Mapper;
 import org.mapstruct.ReportingPolicy;
