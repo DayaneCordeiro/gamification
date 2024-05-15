@@ -4,6 +4,7 @@ import com.example.gamification.core.domain.RewardDomain;
 import com.example.gamification.core.gateway.RewardGateway;
 import com.example.gamification.dataprovider.database.entity.RewardEntity;
 import com.example.gamification.dataprovider.database.mapper.EntityMapper;
+import com.example.gamification.dataprovider.database.repository.RewardRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 

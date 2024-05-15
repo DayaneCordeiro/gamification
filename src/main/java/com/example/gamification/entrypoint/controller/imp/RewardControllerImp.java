@@ -3,11 +3,19 @@ package com.example.gamification.entrypoint.controller.imp;
 import com.example.gamification.entrypoint.controller.RewardController;
 import com.example.gamification.entrypoint.dto.RewardInputDto;
 import com.example.gamification.entrypoint.dto.RewardOutputDto;
+import com.example.gamification.entrypoint.facade.RewardFacade;
+import lombok.RequiredArgsConstructor;
+import org.springframework.web.bind.annotation.RestController;
 
+@RestController
+@RequiredArgsConstructor
 public class RewardControllerImp implements RewardController {
+
+    private final RewardFacade facade;
+
     @Override
     public void create(RewardInputDto inputDto) {
-
+        facade.create(inputDto);
     }
 
     @Override

@@ -17,7 +17,7 @@ public class TasksControllerImp implements TasksController {
 
     @Override
     public void create(TaskInputDto inputDto) {
-
+        facade.create(inputDto);
     }
 
     @Override
