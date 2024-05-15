@@ -4,5 +4,5 @@ import com.example.gamification.core.domain.UserDomain;
 
 public interface UserGateway {
 
-    void create(UserDomain userDomain);
+    public void create(UserDomain userDomain);
 }
