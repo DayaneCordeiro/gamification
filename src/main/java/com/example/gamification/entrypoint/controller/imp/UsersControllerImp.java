@@ -14,6 +14,7 @@ public class UsersControllerImp implements UsersController {
 
     @Override
     public void create(UserDTO userDTO) {
+
         facade.create(userDTO);
     }
 
@@ -23,7 +24,8 @@ public class UsersControllerImp implements UsersController {
     }
 
     @Override
-    public void updatePoints(String userId, int points) {
+    public void updatePoints(String userId, Integer points) {
 
+        facade.updatePoints(userId, points);
     }
 }

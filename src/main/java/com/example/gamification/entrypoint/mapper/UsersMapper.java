@@ -10,5 +10,7 @@ public interface UsersMapper {
 
     UserDomain toDomain(UserDTO userDTO);
 
+    UserDomain toDomain(String id, Integer points);
+
     UserDTO toDTO(UserDomain userDomain);
 }

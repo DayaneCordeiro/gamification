@@ -1,12 +1,17 @@
 package com.example.gamification.core.domain;
 
+import lombok.AllArgsConstructor;
 import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
+@Data
 @Builder
-public record UserDomain(
+@NoArgsConstructor
+@AllArgsConstructor
+public class UserDomain {
 
-    String id,
-    String name,
-    Integer points
-) {
+    private String id;
+    private String name;
+    private Integer points;
 }

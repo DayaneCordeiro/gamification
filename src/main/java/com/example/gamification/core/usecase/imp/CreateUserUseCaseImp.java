@@ -14,6 +14,6 @@ public class CreateUserUseCaseImp implements CreateUsersUseCase {
 
     @Override
     public void create(UserDomain userDomain) {
-        gateway.create(userDomain);
+        gateway.save(userDomain);
     }
 }

@@ -26,6 +26,6 @@ public interface UsersController {
     @ResponseStatus(HttpStatus.OK)
     void updatePoints(
         @RequestHeader(value = "user-id") final String userId,
-        @RequestBody final int points
+        @RequestBody final Integer points
     );
 }

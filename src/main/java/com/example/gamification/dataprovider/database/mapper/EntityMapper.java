@@ -17,4 +17,6 @@ public interface EntityMapper {
     TaskEntity toEntity(TaskDomain taskDomain);
 
     RewardEntity toEntity(RewardDomain rewardDomain);
+
+    UserDomain toDomain(UserEntity userEntity);
 }
